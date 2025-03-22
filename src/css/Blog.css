@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Shrikhand&display=swap');
+
+
+
+.blog-container {
+     width: 60%;
+     margin: auto;
+     font-family: Arial, sans-serif;
+     color: #333;
+}
+     
+.blog-title {
+     font-size: 50px;
+     font-weight: bold;
+     margin-bottom: 20px;
+     font-weight: 800;
+}
+     
+.blog-post {
+     margin-bottom: 20px;
+}
+     
+.post-title {
+     font-size: 24px;
+     font-weight: bold;
+     margin: 0;
+}
+     
+.post-meta {
+     font-size: 14px;
+     color: #424242;
+}
+     
+.post-category {
+     color: #777777;
+}
+     
+.post-description {
+     font-size: 16px;
+     margin-top: 10px;
+     line-height: 1.5;
+}
+     
+hr {
+     border: none;
+     border-top: 1px solid #ddd;
+     margin-top: 15px;
+}
+     
+@media screen and (max-width: 768px) {
+     .blog-container {
+          width: 90%;
+     }
+     
+     .blog-title {
+          font-size: 28px;
+     }
+     
+     .post-title {
+          font-size: 20px;
+     }
+     
+     .post-meta {
+          font-size: 12px;
+     }
+     
+     .post-description {
+          font-size: 14px;
+     }
+}
+     

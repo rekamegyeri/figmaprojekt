@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Shrikhand&display=swap');
+
+
+
+
+.footer {
+     text-align: center;
+     padding: 20px 0;
+     background-color: #ffffff;
+   }
+   
+   .social-icons {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     margin-bottom: 10px;
+   }
+   
+   .icon {
+     font-size: 24px;
+     color: #1a1a2e;
+     transition: color 0.3s ease;
+     margin: 10px;
+     width: 30px;
+     height: 30px;
+     border-radius: 1px;
+   }
+   
+   .icon:hover {
+     color: #4b6584;
+   }
+   
+   .copyright {
+     font-size: 14px;
+     color: #555;
+   }
